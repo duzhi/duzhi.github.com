@@ -3,5 +3,9 @@
 select
 count(
 case
+when ${condition} then ${result}
+when ${condition} then ${result}
+else ${default} 
+end
 )
 from table
