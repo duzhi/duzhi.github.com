@@ -10,3 +10,8 @@ SELECT
     END) AS num
 FROM
     table;
+
+/*
+统计中的汇总
+*/
+GROUP BY col WITH ROLLUP
