@@ -1,11 +1,12 @@
+/*
 统计中case用法
-
-select
-count(
-case
-when ${condition} then ${result}
-when ${condition} then ${result}
-else ${default} 
-end
-)
-from table
+SUM函数一样
+*/
+SELECT 
+    COUNT(CASE
+        WHEN col >= 30 THEN 2
+        WHEN col >= 10 THEN 1
+        ELSE 0
+    END) AS num
+FROM
+    table;
