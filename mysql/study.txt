@@ -1,0 +1,7 @@
+统计中case用法
+
+select
+count(
+case
+)
+from table
