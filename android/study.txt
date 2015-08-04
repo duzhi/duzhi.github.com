@@ -1,0 +1,15 @@
+1.JSON
+String json = "{\"key\":\"value\"}";
+String payway = (String)new JSONObject(json).get("key");
+
+2.包名等
+String pkName = this.getPackageName();
+String versionName = this.getPackageManager().getPackageInfo(
+					pkName, 0).versionName;
+int versionCode = this.getPackageManager()
+					.getPackageInfo(pkName, 0).versionCode;
+
+3.重启app
+final Intent intent = getPackageManager().getLaunchIntentForPackage(getPackageName());
+intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+startActivity(intent);
