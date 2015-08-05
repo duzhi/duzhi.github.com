@@ -9,7 +9,9 @@ String versionName = this.getPackageManager().getPackageInfo(
 int versionCode = this.getPackageManager()
 					.getPackageInfo(pkName, 0).versionCode;
 
-3.重启app
-final Intent intent = getPackageManager().getLaunchIntentForPackage(getPackageName());
-intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-startActivity(intent);
+3.退出app
+activity执行
+finish();
+android.os.Process.killProcess(android.os.Process.myPid());
+
+4、
