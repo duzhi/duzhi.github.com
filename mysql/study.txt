@@ -15,3 +15,6 @@ FROM
 统计中的汇总
 */
 GROUP BY col WITH ROLLUP
+
+日百万级数据新增的解决方案：
+
