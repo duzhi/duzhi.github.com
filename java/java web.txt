@@ -4,3 +4,5 @@
 	<servlet-class>xxx</servlet-class>
 	<load-on-startup>999</load-on-startup>
 </servlet>
+
+2、流水查询与统计查询分开
