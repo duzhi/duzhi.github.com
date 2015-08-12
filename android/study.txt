@@ -1,3 +1,10 @@
+adt-bundle 4.4w下载
+http://pan.baidu.com/share/link?shareid=2088606359&uk=2769080082#path=%252Fadt
+
+apktool工具
+下载：https://bitbucket.org/iBotPeaches/apktool/downloads
+
+
 1.JSON
 String json = "{\"key\":\"value\"}";
 String payway = (String)new JSONObject(json).get("key");
