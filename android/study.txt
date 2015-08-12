@@ -5,6 +5,9 @@ apktool工具
 下载：https://bitbucket.org/iBotPeaches/apktool/downloads
 反编译版本与apk打包版本要一致
 
+APKTOOL，查看apk class方法
+http://blog.csdn.net/yueyueniao96/article/details/7540224
+
 1.JSON
 String json = "{\"key\":\"value\"}";
 String payway = (String)new JSONObject(json).get("key");
