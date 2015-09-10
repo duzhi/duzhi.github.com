@@ -11,5 +11,6 @@ http://blog.csdn.net/lpohvbe/article/details/7981386
 ### 签名
 jarsigner -keystore ${keystore file} -storepass ${password} -keypass ${aliaspwd} ${apkfile} ${alias} -sigalg SHA1withRSA -digestalg SHA1
 
-### 使用zipalign工具优化已签名的apk（非必须但建议这么做）
-zipalign -v 4 ${source apk} ${dest apk}
+### 使用zipalign工具优化已签名的apk（非必须但建议这么做）（-f为省略日志）
+zipalign -v 4 ${source apk} ${dest apk}  
+zipalign -f 4 ${source apk} ${dest apk}  
