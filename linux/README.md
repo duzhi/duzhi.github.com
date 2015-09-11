@@ -6,3 +6,13 @@ zipinfo example.zip
 
 #### 解压example.zip
 unzip example.zip
+
+###修改SSH超时设置
+cd /etc/ssh/  
+cp sshd_config sshd_config.bak  
+vi sshd_config
+###修改以下数据
+ClientAliveInterval 60  
+ClientAliveCountMax 3
+###重启
+service sshd restart
