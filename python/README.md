@@ -1,6 +1,6 @@
 
 ### 查看pythonCPU架构
-import platform
+import platform  
 print platform.architecture()
 
 
