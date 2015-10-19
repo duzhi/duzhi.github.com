@@ -14,7 +14,7 @@ APK包名，版本code，版本名称统一修改
 
 ##四、程序
 ###0、start
-配置元数据
+读取元数据
 ###1、解压
 apktool -q d -d -f ${sourceApk} -o ${packDir}  
 说明：sourceApk为APK源文件，packDir为解码目录
@@ -24,5 +24,8 @@ apktool -q d -d -f ${sourceApk} -o ${packDir}
 ###n、签名
 
 ###Max、结束
-检查产生的包
+打包完成。
 
+##五、打包流程
+###0、开始
+获取打包需要的数据，配置元数据。有不明确的及时与运营人员沟通。
