@@ -1,4 +1,4 @@
 ###1、解压
-apktool -q d -d -f ${sourceApk} -o ${packDir}
-sourceApk为APK源文件，packDir为解码目录
+apktool -q d -d -f ${sourceApk} -o ${packDir}  
+说明：sourceApk为APK源文件，packDir为解码目录
 ###2、
