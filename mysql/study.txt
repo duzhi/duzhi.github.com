@@ -16,5 +16,8 @@ FROM
 */
 GROUP BY col WITH ROLLUP
 
-日百万级数据新增的解决方案：
+###日百万级数据新增的解决方案
+非结构化存储OTS
 
+###字符串转int，如行id
+CONVERT(id,SIGNED)
