@@ -11,5 +11,7 @@ CREATE TABLE `ck_stat_remain` (
   PRIMARY KEY (`channelid`,`ckappid`)  
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC  
   
-ROW_FORMAT=DYNAMIC
+ROW_FORMAT=DYNAMIC  
+InnoDB行存储compressed/dynamic两种行格式
+
 ####
