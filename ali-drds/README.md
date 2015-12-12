@@ -11,7 +11,8 @@ CREATE TABLE `ck_stat_remain` (
   PRIMARY KEY (`channelid`,`ckappid`)  
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC  
   
+InnoDB行存储compressed/dynamic两种行格式  
 ROW_FORMAT=DYNAMIC  
-InnoDB行存储compressed/dynamic两种行格式
+每条记录所占用的字节是动态的。其优点节省空间，缺点增加读取的时间开销。  
 
 ####
