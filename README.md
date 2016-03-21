@@ -1,5 +1,5 @@
 # duzhi.github.com
 
-study
+less is more
 
-解耦，less is more
+解耦
