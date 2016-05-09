@@ -26,11 +26,11 @@ du -h
 du -h --max-depth=1
 
 ### 查看文件
-less example.log
-:g 转向文件头，
-:G 转向文件尾，
-/{example} 往前查询，
-?{example} 往后查询，
-:n 正向查询下一个，
+less example.log  
+:g 转向文件头，  
+:G 转向文件尾，  
+/{example} 往前查询，  
+?{example} 往后查询，  
+:n 正向查询下一个，  
 :N 反向查询下一个。
 
