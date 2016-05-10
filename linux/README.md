@@ -34,3 +34,5 @@ less example.log
 :n 正向查询下一个，  
 :N 反向查询下一个。
 
+### 修改用户名用户组
+chown -R {usrName}.{userGroup} {file or filepath}
