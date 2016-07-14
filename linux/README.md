@@ -38,5 +38,5 @@ less example.log
 chown -R {usrName}.{userGroup} {file or filepath}
 
 ### 共享库，java.library.path读取的变量
-LD_LIBRARY_PATH=$LD_LIBRARY_PATH::$HOME/blacklist/libMyBlackList.so
+LD_LIBRARY_PATH=$LD_LIBRARY_PATH::$HOME/blacklist/libMyBlackList.so  
 export LD_LIBRARY_PATH
