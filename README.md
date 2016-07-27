@@ -1,7 +1,7 @@
 # duzhi.github.com
 
-Less is more
+Less is more.
 
-解耦
+Release coupling.
 
 What is technology?
