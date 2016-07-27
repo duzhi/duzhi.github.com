@@ -1,6 +1,6 @@
 # duzhi.github.com
 
-less is more
+Less is more
 
 解耦
 
