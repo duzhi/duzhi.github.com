@@ -1,10 +1,10 @@
 ###
 1、web容器启动好开启任务load-on-startup设置得足够大会最后初始化。
-<servlet>
-	<servlet-name>xxx</servlet-name>
-	<servlet-class>xxx</servlet-class>
-	<load-on-startup>999</load-on-startup>
-</servlet>
+&lt;servlet>
+	&lt;servlet-name>xxx&lt;/servlet-name>
+	&lt;servlet-class>xxx&lt;/servlet-class>
+	&lt;load-on-startup>999&lt;/load-on-startup>
+&lt;/servlet>
 
 2、流水查询与统计查询分开
 
