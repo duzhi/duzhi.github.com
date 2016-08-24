@@ -1,3 +1,4 @@
+###
 1、web容器启动好开启任务load-on-startup设置得足够大会最后初始化。
 <servlet>
 	<servlet-name>xxx</servlet-name>
