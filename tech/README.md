@@ -16,3 +16,5 @@
 9、其他：运维，网络，域名，协议，文件，CDN，安全，git/svn，翻墙等等；
 
 10、管理：人员管理，项目管理
+
+11、语言，Java，Python，JavaScript，Swift，R，GO，Dart，Lua，C#。
