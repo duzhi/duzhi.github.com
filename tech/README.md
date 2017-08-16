@@ -17,4 +17,4 @@
 
 10、管理：人员管理，项目管理
 
-11、语言，Java，Python，JavaScript，Swift，R，GO，Dart，Lua，C#。
+11、语言，Java，Python，JavaScript，Swift，GO，Lua，C#，Erlang。
